@@ -1,6 +1,6 @@
 # calculations.py
 """A module for basic arithmetic calculations. An example of unit testing and automated testing"""
-""" Author: Michelle """
+""" Author: Michelle Talley - Unofficial Unpaid TA """
 
 def add(a, b):
     """Returns the sum of two numbers."""
