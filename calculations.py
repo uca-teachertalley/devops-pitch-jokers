@@ -1,6 +1,6 @@
 # calculations.py
 """A module for basic arithmetic calculations. An example of unit testing and automated testing"""
-""" Author: Terry """
+""" Author: Terry Talley - Unofficial Unpaid TA """
 
 def add(a, b):
     """Returns the sum of two numbers."""
@@ -18,6 +18,10 @@ def divide(a, b):
     if b == 0:
         raise ValueError("Cannot divide by zero")
     return a / b
+
+def multiply(a, b):
+    """Returns the product of two numbers."""
+    return a * b
 
 def main():
     """Main function to demonstrate the calculations module."""
